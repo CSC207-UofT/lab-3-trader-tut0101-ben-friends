@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class Cat {
+public class Cat implements Domesticatable, Tradable {
+
+    @Override
+    public String sound() {
+        return "Meow Meow!";
+    }
+
+    @Override
+    public int getPrice() {
+        return 7;
+    }
 }
